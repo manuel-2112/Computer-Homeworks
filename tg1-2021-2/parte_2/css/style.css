@@ -1,0 +1,48 @@
+body {
+  background-color: #C2CAC0;
+}
+.boton {
+  display: inline;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.item {
+  height: 450px;
+  width: auto;
+  margin: 10px;
+}
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  display: flex;
+  background: skyblue;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+  color: white;
+}

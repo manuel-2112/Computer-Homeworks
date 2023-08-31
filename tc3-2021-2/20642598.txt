@@ -1,0 +1,93 @@
+name: Máquina M Manuel Espinoza
+init: qcopyd
+accept: qAccept
+
+qcopyd, 0, _ , _
+qcopyd, _, 0, _, >, >, -
+
+qcopyd, 1, _, _
+qcopyd, _, 1, _, >, >, -
+
+qcopyd, #, _, _
+volver, #, _, _, >, <, -
+
+volver, 0, 0, _
+volver, 0, 0, _, >, -, -
+
+volver, 0, 1, _
+volver, 0, 1, _, >, -, -
+
+volver, 1, 0, _
+volver, 1, 0, _, >, -, -
+
+volver, 1, 1, _
+volver, 1, 1, _, >, -, -
+
+volver, #, 0, _
+resta, #, 0, _, <, -, -
+
+volver, #, 1, _
+resta, #, 1, _, <, -, -
+
+volver, _, 0, _
+resta, _, 0, _, <, -, -
+
+volver, _, 1, _
+resta, _, 1, _, <, -, -
+
+resta, 0, 0, _
+resta, 0, 0, 0 ,<, <, <
+
+resta, 1, 1, _
+resta, 1, 1, 0, <, <, <
+
+resta, 1, 0, _
+resta, 1, 0, 1, <, <, <
+
+resta, 0, 1, _
+resta1, 0, 1, 1, <, <, <
+
+resta1, 1, 0, _
+resta, 1, 0, 0, <, <, <
+
+resta1, 1, 1, _
+resta1, 1, 1, 0, <, <, <
+
+resta1, 0, 1, _
+resta1, 0, 1, 0, <, <, <
+
+resta1, 0, 0, _
+resta1, 0, 0, 1, <, <, <
+
+resta, #, _, _
+volver, #, _, _, >, -, -
+
+volver, 0, _, _
+volver, 0, _, _, >, -, -
+
+volver, 1, _, _
+volver, 1, _, _, >, -, -
+
+volver, #, _, _
+comparar, #, _, _, >, -, >
+
+comparar, 0, _, 0
+comparar, 0, _, 0, >, -, >
+
+comparar, 1, _, 1
+comparar, 1, _, 1, >, -, >
+
+comparar, #, _, _
+moverd, #, _, _, -, >, >
+
+moverd, #, 0, _
+moverd, #, 0, _, -, >, >
+
+moverd, #, 1, _
+moverd, #, 1, _, -, >, >
+
+moverd, #, _, _
+resta, #, _, _, <, <, >
+
+comparar, _, _, _
+qAccept, _, _, _, -, -, -
