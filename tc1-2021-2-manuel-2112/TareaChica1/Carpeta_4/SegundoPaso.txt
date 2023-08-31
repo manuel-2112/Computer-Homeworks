@@ -1,0 +1,6 @@
+
+Mediante la consola de comandos, crea un archivo llamado 'progreso.txt',
+que contenga en su interior el nombre de tu comida favorita,
+en la SubCarpeta_3, contenida dentro de la Carpeta_4  
+OJO: no vale ocupar editores como nano o vim para escribir la comida. 
+Dentro de esta misma subcarpeta encontraras el siguiente paso.

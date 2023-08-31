@@ -1,2 +1,3 @@
-# bot-for-disco-tickets
-Bot that accesses Ticket Master website and reserves tickets.
+# Homeworks for Computing: Science and Technology
+
+All homeworks for the course Computing: Science and Technology. (IIC1005)

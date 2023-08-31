@@ -1,0 +1,8 @@
+
+ Obten la cantidad de archivos totales presentes en la carpeta padre (TareaChica1),
+ incluyendo todos los que estan dentro de los subdirectorios.
+  Los tres ultimos digitos del numero son los indices de las carpetas para encontrar
+    las siguientes instrucciones. Por ejemplo, si TareaChica1 posee 141743 archivos 
+    deberas ir a Carpeta_7/SubCarpeta_4/SubSubCarpeta_3. Lista los archivos
+    dentro de la carpeta y sabras cual es el archivo a mostrar.
+    
